@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>NeswangyTest</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #0a0a1a;
+    }
+    .animate-fade-in {
+      animation: fadeIn 0.7s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .btn-glow:hover {
+        box-shadow: 0 0 15px rgba(192, 132, 252, 0.5), 0 0 5px rgba(192, 132, 252, 0.8);
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <header class="py-4 bg-gray-900/50 backdrop-blur-sm shadow-lg shadow-purple-500/10">
+      <div class="container mx-auto text-center">
+          <h1 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500">
+              neswangy نسوانجي
+          </h1>
+      </div>
+  </header>
+
+  <main class="min-h-screen flex flex-col items-center justify-center p-4 bg-gradient-to-br from-gray-900 via-indigo-900 to-gray-900">
+    <div class="w-full max-w-2xl mx-auto bg-gray-800/50 backdrop-blur-lg rounded-2xl shadow-2xl shadow-purple-500/20 p-6 md:p-8 transition-all duration-500">
+
+      <!-- Start Screen -->
+      <div id="start-screen" class="text-center animate-fade-in">
+        <div class="mb-6">
+            <img src="https://i.pinimg.com/originals/89/68/da/8968daa6b805abed1239332f3b2b2237.png" alt="امرأة جذابة تسير في الشارع" class="rounded-lg shadow-lg mx-auto max-h-[32rem] w-full object-cover object-top">
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-500 mb-4">
+          اختبار الرغبة الخفية
+        </h1>
+        <p class="text-lg text-gray-300 mb-4">
+          هل أنت مستعد لاكتشاف ما يثيرك حقًا في المرأة؟ أجب بصدق ودعنا نكشف لك أسرار انجذابك.
+        </p>
+        <p class="text-md text-gray-400 mb-8 px-4">
+          هذا الاختبار مستوحى من فضول كل رجل "نسوانجي" (neswangy) يسعى لفهم أعمق لتفضيلاته. نحن لا نحكم، بل نساعدك على استكشاف ما يجذبك حقًا في عالم الأنوثة والجمال.
+        </p>
+        <button id="start-button" class="w-full md:w-auto bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-10 rounded-full text-xl transition-transform transform hover:scale-105 duration-300 shadow-lg shadow-purple-500/30 btn-glow">
+          اكشف الأسرار
+        </button>
+
+        <!-- New Enhanced Content Section -->
+        <div class="mt-12 border-t border-gray-700 pt-8">
+            <h2 class="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 mb-8">
+                بوابتك لعالم "النسوانجي" الحديث
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-right">
+                <!-- Feature 1 -->
+                <div class="bg-gray-800/40 p-6 rounded-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="flex items-start justify-end mb-3">
+                        <h3 class="text-xl font-semibold text-gray-100 ml-4">اكتشاف ذاتي عميق</h3>
+                        <div class="bg-purple-500/20 text-purple-400 p-2 rounded-md">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-400">
+                       بعيدًا عن التصفح العشوائي، نقدم لك رحلة مركزة تكشف تفضيلاتك الدقيقة وأنماط انجذابك التي لم تكن تعرفها.
+                    </p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-gray-800/40 p-6 rounded-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="flex items-start justify-end mb-3">
+                        <h3 class="text-xl font-semibold text-gray-100 ml-4">تجربة عصرية وممتعة</h3>
+                         <div class="bg-pink-500/20 text-pink-400 p-2 rounded-md">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-400">
+                        واجهة أنيقة وتفاعلية مصممة لمتعتك، تمنحك نتائج فورية قابلة للمشاركة بلمسة زر.
+                    </p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-gray-800/40 p-6 rounded-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="flex items-start justify-end mb-3">
+                        <h3 class="text-xl font-semibold text-gray-100 ml-4">محتوى حصري ومُنظم</h3>
+                        <div class="bg-indigo-500/20 text-indigo-400 p-2 rounded-md">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-400">
+                        نؤمن بالجودة لا الكمية. اكتشف شخصيتك من خلال محتوى مختار بعناية، بدلاً من الضياع في بحر من المشاركات المتناثرة.
+                    </p>
+                </div>
+            </div>
+            <div class="mt-10 text-center">
+                <p class="text-gray-400">جاهز لتبدأ؟</p>
+                <p class="text-lg text-white font-semibold">انضم إلى نخبة النسوانجية واكتشف أسرارك الآن.</p>
+            </div>
+        </div>
+
+      </div>
+
+      <!-- Quiz Screen -->
+      <div id="quiz-screen" class="hidden animate-fade-in">
+        <!-- Progress Bar -->
+        <div class="w-full bg-gray-700 rounded-full h-2.5 mb-6">
+          <div id="progress-bar" class="bg-gradient-to-r from-pink-500 to-purple-600 h-2.5 rounded-full transition-all duration-500" style="width: 0%"></div>
+        </div>
+        <!-- Question -->
+        <div class="text-center">
+          <h2 id="question-text" class="text-2xl md:text-3xl font-semibold text-gray-100 mb-8 leading-relaxed">
+          </h2>
+        </div>
+        <!-- Options -->
+        <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        </div>
+      </div>
+
+      <!-- Completed Screen -->
+      <div id="result-screen" class="hidden text-center animate-fade-in">
+        <div class="mb-6">
+            <img id="result-image" src="" alt="نتيجة الاختبار" class="rounded-lg shadow-lg mx-auto max-h-[32rem] w-full object-cover object-top">
+        </div>
+        <h2 id="result-title" class="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-500 mb-4">
+        </h2>
+        <p id="result-description" class="text-lg text-gray-300 mb-8 leading-loose">
+        </p>
+
+        <!-- Share Buttons -->
+        <div class="mt-8">
+            <p class="text-gray-400 mb-4">شارك نتيجتك:</p>
+            <div id="share-buttons" class="flex justify-center items-center space-x-4 rtl:space-x-reverse">
+                <!-- Facebook -->
+                <a id="share-facebook" href="#" target="_blank" class="text-gray-400 hover:text-white transition-colors duration-300">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                </a>
+                <!-- Twitter -->
+                <a id="share-twitter" href="#" target="_blank" class="text-gray-400 hover:text-white transition-colors duration-300">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+                </a>
+                <!-- WhatsApp -->
+                <a id="share-whatsapp" href="#" target="_blank" class="text-gray-400 hover:text-white transition-colors duration-300">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zM12.04 20.15c-1.48 0-2.93-.4-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31c-.82-1.31-1.26-2.83-1.26-4.38 0-4.54 3.7-8.24 8.24-8.24 4.54 0 8.24 3.7 8.24 8.24s-3.7 8.24-8.24 8.24zm4.52-6.13c-.25-.12-1.47-.72-1.7-.82s-.39-.12-.56.12c-.17.25-.64.82-.79.98s-.29.17-.54.06c-.25-.12-1.06-.39-2.02-1.25s-1.45-1.95-1.61-2.29c-.17-.34 0-.52.11-.64s.25-.29.37-.43c.12-.14.17-.25.25-.41s.04-.3-.02-.43c-.06-.12-.56-1.34-.76-1.84s-.4-.42-.55-.43h-.48c-.17 0-.43.06-.66.31s-.86.85-.86 2.07c0 1.22.88 2.4 1 2.56.12.17 1.76 2.67 4.25 3.73.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18s.21-1.08.15-1.18c-.07-.1-.25-.16-.5-.28z" /></svg>
+                </a>
+            </div>
+        </div>
+
+        <button id="reset-button" class="mt-8 w-full md:w-auto bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-10 rounded-full text-xl transition-transform transform hover:scale-105 duration-300">
+          إعادة الاختبار
+        </button>
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    const questions = [
+      {
+        text: 'ما أول ما يلفت انتباهك في المرأة؟',
+        options: [
+          { text: 'وجهها وابتسامتها', category: 'face' },
+          { text: 'قوامها الممشوق', category: 'bodyShape' },
+          { text: 'طريقة مشيتها الواثقة', category: 'aura' },
+          { text: 'عيونها الجذابة', category: 'face' }
+        ]
+      },
+      {
+        text: 'عندما تفكر في المنحنيات، ما الذي يبرز في ذهنك؟',
+        options: [
+          { text: 'الصدر الممتلئ', category: 'bodyShape' },
+          { text: 'الأرداف المستديرة', category: 'bodyShape' },
+          { text: 'الخصر النحيل', category: 'bodyShape' },
+          { text: 'تقوّس الظهر السفلي', category: 'bodyShape' }
+        ]
+      },
+      {
+        text: 'أي جزء من الوجه تجده الأكثر إغراءً؟',
+        options: [
+          { text: 'الشفاه الممتلئة', category: 'face' },
+          { text: 'العيون الغامضة', category: 'face' },
+          { text: 'عظام الخد البارزة', category: 'face' },
+          { text: 'الرقبة الطويلة والناعمة', category: 'subtleDetails' }
+        ]
+      },
+      {
+        text: 'ما الذي يأسرك في حضور المرأة؟',
+        options: [
+          { text: 'ثقتها بنفسها وجرأتها', category: 'aura' },
+          { text: 'غموضها الهادئ', category: 'aura' },
+          { text: 'طاقتها المفعمة بالحياة', category: 'aura' },
+          { text: 'نعومتها ورقّتها', category: 'subtleDetails' }
+        ]
+      },
+      {
+        text: 'أي مظهر يجعلك تلتفت مرتين؟',
+        options: [
+          { text: 'فستان أحمر جريء', category: 'aura' },
+          { text: 'جينز ضيق وقميص بسيط', category: 'bodyShape' },
+          { text: 'ملابس رياضية تبرز المنحنيات', category: 'bodyShape' },
+          { text: 'لمحة من لانجيري أنيق', category: 'subtleDetails' }
+        ]
+      },
+       {
+        text: 'ما هو الملمس الذي يثيرك أكثر؟',
+        options: [
+          { text: 'نعومة البشرة الحريرية', category: 'subtleDetails' },
+          { text: 'صلابة العضلات المشدودة', category: 'bodyShape' },
+          { text: 'دفء الجلد عند اللمس', category: 'subtleDetails' },
+          { text: 'خصلات الشعر الناعمة', category: 'subtleDetails' }
+        ]
+      }
+    ];
+
+    const resultsMap = {
+      face: {
+        title: 'فنان الوجوه',
+        description: 'أنت تُغرم بالتفاصيل التي تروي قصة. نظرة عين آسرة، ابتسامة خجولة، أو تقاسيم وجه منحوتة بدقة هي لغتك في الحب. بالنسبة لك، الوجه هو لوحة فنية للروح، وأنت لا تمل من تأملها.',
+        imageUrl: 'https://i.pinimg.com/736x/a7/42/74/a74274f6690b4d4be1705e859a11ead1.jpg'
+      },
+      bodyShape: {
+        title: 'مهووس بالمنحنيات',
+        description: 'أنت تعبد التكوين الأنثوي الصارخ. الانحناءات الجريئة، من الصدر الممتلئ إلى الأرداف المستديرة والخصر النحيل، هي ما يشعل رغبتك. جسد المرأة بالنسبة لك هو قصيدة للحياة والخصوبة، وأنت تقدر كل بيت فيها.',
+        imageUrl: 'https://i.pinimg.com/736x/f9/a9/e8/f9a9e8e44fc99c40971d8aec3806f91d.jpg'
+      },
+      subtleDetails: {
+        title: 'المُكتشف الحسي',
+        description: 'أنت عاشق للتفاصيل الخفية التي لا يراها إلا القليل. نعومة بشرتها تحت لمستك، رائحة شعرها، أو شامة صغيرة على رقبتها هي كنوزك السرية. إثارتك تكمن في القرب واكتشاف الأسرار الصغيرة.',
+        imageUrl: 'https://i.pinimg.com/736x/66/73/e2/6673e2db6f537b744f9b8f0b75efe37f.jpg'
+      },
+      aura: {
+          title: 'صياد الكاريزما',
+          description: 'أنت لا تنجذب لما تراه فقط، بل لما تشعر به. طاقة المرأة، ثقتها، غموضها، أو حتى طريقة مشيتها هي ما يأسرك. أنت تبحث عن الجوهر الذي يكمن وراء الجسد، تلك الهالة التي لا يمكن مقاومتها.',
+          imageUrl: 'https://i.pinimg.com/736x/ca/c0/58/cac058b3010bdd7f79e69d50ddd8585a.jpg'
+      },
+      default: {
+          title: 'الذوّاق المتكامل',
+          description: 'أنت لا تفضل جزءًا على آخر، بل تبحث عن السيمفونية الكاملة. الجمال بالنسبة لك هو التناغم بين الروح والجسد، بين النظرة واللمسة، بين الثقة والنعومة. انجذابك فريد ومعقد، تمامًا مثل ذوقك.',
+          imageUrl: 'https://i.pinimg.com/736x/10/11/17/101117b69d9791ee971b3366e2402111.jpg'
+      }
+    };
+
+    let currentQuestionIndex = 0;
+    let userAnswers = [];
+
+    const startScreen = document.getElementById('start-screen');
+    const quizScreen = document.getElementById('quiz-screen');
+    const resultScreen = document.getElementById('result-screen');
+
+    const startButton = document.getElementById('start-button');
+    const resetButton = document.getElementById('reset-button');
+    
+    const questionText = document.getElementById('question-text');
+    const optionsContainer = document.getElementById('options-container');
+    const progressBar = document.getElementById('progress-bar');
+    
+    const resultImage = document.getElementById('result-image');
+    const resultTitle = document.getElementById('result-title');
+    const resultDescription = document.getElementById('result-description');
+
+    const shareFacebook = document.getElementById('share-facebook');
+    const shareTwitter = document.getElementById('share-twitter');
+    const shareWhatsapp = document.getElementById('share-whatsapp');
+
+
+    function startQuiz() {
+      currentQuestionIndex = 0;
+      userAnswers = [];
+      startScreen.classList.add('hidden');
+      resultScreen.classList.add('hidden');
+      quizScreen.classList.remove('hidden');
+      displayQuestion();
+    }
+
+    function displayQuestion() {
+      const question = questions[currentQuestionIndex];
+      questionText.textContent = question.text;
+      optionsContainer.innerHTML = '';
+
+      question.options.forEach(option => {
+        const button = document.createElement('button');
+        button.textContent = option.text;
+        button.className = "p-4 bg-gray-700/60 border border-gray-600 rounded-lg text-lg text-gray-200 text-center hover:bg-purple-600 hover:border-purple-500 transition-all duration-300 focus-outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75 transform hover:-translate-y-1";
+        button.onclick = () => selectAnswer(option.category);
+        optionsContainer.appendChild(button);
+      });
+      
+      const progress = (currentQuestionIndex / questions.length) * 100;
+      progressBar.style.width = `${progress}%`;
+    }
+
+    function selectAnswer(category) {
+      userAnswers.push(category);
+      if (currentQuestionIndex < questions.length - 1) {
+        currentQuestionIndex++;
+        displayQuestion();
+      } else {
+        progressBar.style.width = `100%`;
+        setTimeout(showResult, 500);
+      }
+    }
+
+    function showResult() {
+      const answerCounts = userAnswers.reduce((acc, curr) => {
+        acc[curr] = (acc[curr] || 0) + 1;
+        return acc;
+      }, {});
+      
+      let dominantCategory = 'default';
+      let maxCount = 0;
+      for (const category in answerCounts) {
+          if (answerCounts[category] > maxCount) {
+              maxCount = answerCounts[category];
+              dominantCategory = category;
+          }
+      }
+
+      const result = resultsMap[dominantCategory] || resultsMap['default'];
+      
+      resultImage.src = result.imageUrl;
+      resultTitle.textContent = result.title;
+      resultDescription.textContent = result.description;
+
+      updateShareLinks(result.title);
+
+      quizScreen.classList.add('hidden');
+      resultScreen.classList.remove('hidden');
+    }
+
+    function updateShareLinks(resultTitle) {
+        const shareUrl = encodeURIComponent(window.location.href);
+        const shareText = encodeURIComponent(`اكتشفت أنني "${resultTitle}" في اختبار نسوانجي! اكتشف ميولك أنت أيضاً:`);
+        
+        shareFacebook.href = `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}&quote=${shareText}`;
+        shareTwitter.href = `https://twitter.com/intent/tweet?url=${shareUrl}&text=${shareText}`;
+        shareWhatsapp.href = `https://api.whatsapp.com/send?text=${shareText} ${shareUrl}`;
+    }
+
+    function resetQuiz() {
+        resultScreen.classList.add('hidden');
+        startScreen.classList.remove('hidden');
+    }
+
+    startButton.addEventListener('click', startQuiz);
+    resetButton.addEventListener('click', resetQuiz);
+
+  </script>
+
+</body>
+</html>
